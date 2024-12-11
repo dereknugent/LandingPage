@@ -3,31 +3,23 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-#header {
-    display: flex;
+.header {
     background-color: #1f2937;
     color: white;
     padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:8px;
 }
 
-.item {
-    flex: 1;
-    
-}
-
-#headerLeft {
+.headerItem {
     width: 400px;
     border: 2px solid blue;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
-}
-
-#headerRight {
-    width: 400px;
-    border: 2px solid blue;
-    display: flex;
-    flex-direction: column;
-}
+}}
 
 .heroSecondaryText {
     font-size: 18px;
