@@ -1,0 +1,54 @@
+/* Landing Page CSS */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+#header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 12px;
+}
+
+.item {
+    flex: 1;
+    
+}
+
+#headerLeft {
+    width: 400px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+#headerRight {
+    width: 400px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.heroSecondaryText {
+    font-size: 18px;
+}
+
+.heroMainText {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.headerText {
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+.menuHorizontal {
+    /*display: inline-block;
+    float: left;*/
+}
+
+#imageHolder {
+    background-color: grey;
+}
