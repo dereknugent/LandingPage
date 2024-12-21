@@ -3,26 +3,32 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.header {
+#container {
+    //border: blue dotted 5px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+#header {
     background-color: #1f2937;
     color: white;
     padding: 12px;
     display: flex;
-    align-items: center;
-    justify-content:space-between;
-    gap:8px;
+    align-items:top;
+    justify-content:center;
+    gap:16px;
+    height: 325px;
 }
 
 .headerItem {
-    width: 400px;
-    border: 2px solid blue;
-    min-height: 300px;
+    width: 460px;
     display: flex;
     flex-direction: column;
-}}
+}
 
-.heroSecondaryText {
-    font-size: 18px;
+#heroSecondaryText {
+    font-size: 16px;
+    display: block;
 }
 
 .heroMainText {
@@ -31,16 +37,149 @@ body {
     color: #f9faf8;
 }
 
+#signUpBtnA {
+    border-radius: 10px;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    background-color: #3882f6;
+    padding-top: 10px; 
+    font-weight: 700;
+}
+
+
 .headerText {
     font-size: 24px;
     color: #e5e7eb;
 }
 
 .menuHorizontal {
-    /*display: inline-block;
-    float: left;*/
+    margin: 20px 0 0 0;
+    text-align: right;
 }
+
+.menuHorizontal li{
+        text-decoration: none;
+        display: inline;
+        margin: 0 0 0 10px;
+    }
 
 #imageHolder {
     background-color: grey;
+    margin: 30px 0 0 25px;
+    height: 200px;
+    text-align: center;
 }
+
+    #placeholderText{
+        padding-top:70px;
+    }
+
+#sectionB {
+    height: 500px;
+    gap: 16px;
+}
+
+    .blueBoxContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        height: 200px;
+        gap: 25px;
+    }
+
+    #sectionB h2 {
+        text-align: center;
+    }
+
+    #blueBoxTitle {
+        font-size: 36px;
+        height: 50px;
+        width: 500px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 50px 0 20px 0;
+    }
+
+    .illustrationImgs {
+        border: solid lightblue 3px;
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+
+    .pText{
+        font-size: 18px;
+        text-align: center;
+    }
+
+#sectionC {
+    height: 200px;
+    background-color: #e5e7eb;
+    height: 325px;
+}
+
+    #thorQuote {
+        color: #1f2937;
+        font-size: 36px;
+        font-weight: lighter;
+        font-style: italic;
+        margin: 0 auto;
+        width: 820px;
+        padding-top: 100px;
+    }
+
+    .signature {
+        width: 200px;
+        text-align: right;
+        float: right;
+        position: relative;
+        margin:  0 325px 0 0;
+        font-weight: bold;
+
+    }
+
+#sectionD {
+    height: 200px;
+}
+
+    #coloredBox {
+        background-color: #3882f6;
+        color: white;
+        width: 1200px;
+        height: 150px;
+        margin: 0 auto;
+        margin-top: 80px;
+        border-radius: 10px;
+    }
+
+    #centerBox {
+        width: 900px;
+        height: 70px;
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+
+        #signUpBtnB {
+            border: white solid 1px;
+            border-radius: 10px;
+            width: 140px;
+            height: 30px;
+            text-align: center;
+            padding: 10px 0 0 0;
+            float: right;
+            margin: -50px 200px 0 0;
+        }
+
+        
+
+    #footerHeader {
+        font-size: 26px;
+        font-weight: 700;
+    
+    }
+    #footerText {
+        font-size: 20px;
+        width: 600px;
+    }
